@@ -54,7 +54,7 @@
         <section class="hero hero-conteiner overlay">
            <div class="container">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="modal-btn" type="button">Заказать услугу</button>
+                <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
            </div>
         </section>
 
@@ -388,6 +388,18 @@
     </div>
         
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal-window">
+            <button type="button" class="button-modal-window" data-modal-close>
+                <svg class="close">
+                    <use href="./images/spryte.svg.svg#icon-close"></use>
+                </svg>
+
+                <script src="./js/modal.js"></script>
+            </button>
+        </div>
+    </div>
     
 </body>
 </html> 
