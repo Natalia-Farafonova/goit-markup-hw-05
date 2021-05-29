@@ -30,8 +30,9 @@ img {
 }
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
@@ -367,12 +368,12 @@ body {
   background: #188ce8;
 }
 
-.overlay {
+/* .overlay {
   width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* =========END HERO======== */
 
